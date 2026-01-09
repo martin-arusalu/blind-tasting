@@ -20,7 +20,7 @@ export default function HostDashboard() {
   const bottleLabels = generateLabels(event.wines.length);
   const ordinals = generateOrdinals(event.wines.length);
 
-  const joinUrl = `${window.location.origin}/join/${event.peerId}`;
+  const joinUrl = `${window.location.origin}/blind-tasting/join/${event.peerId}`;
 
   const handleRoundChange = (round: typeof event.status) => {
     changeRound(round);
