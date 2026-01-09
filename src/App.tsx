@@ -6,7 +6,7 @@ import ParticipantView from './components/participant/ParticipantView';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/blind-tasting">
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
         <Routes>
           <Route path="/" element={<Home />} />
