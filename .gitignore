@@ -21,4 +21,8 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# Replit
+vite.replit.config.ts
+replit.md
+.replit
